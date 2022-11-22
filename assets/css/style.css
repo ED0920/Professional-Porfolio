@@ -1,0 +1,60 @@
+.main-header{
+    background-color: darkgrey;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+}
+
+.topnav {
+    overflow:hidden;
+    background-color: darkgrey;
+    
+    
+}
+
+.topnav a {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    /* text-align: right; */
+    padding: 20px;
+    text-wrap: 
+    
+}
+
+.hero{
+    
+}
+
+.hero img{
+    margin: 20px;
+    border: 10px;
+    width: 25%;
+}
+
+.content{
+    float: left;
+    /* width: 50px; */
+    text-align: right;
+
+
+.column{
+    float: left;
+    width: 30%;
+}
+
+.column.side{
+    width: 20%;
+}
+
+.column.main{
+    width: 80%;
+}
+
+.footer{
+
+}
+h2{
+    color: darkblue;
+}
