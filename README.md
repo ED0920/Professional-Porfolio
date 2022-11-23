@@ -8,6 +8,7 @@ This challenge is to create a professional portfoli to showcase core skills and 
 For full description of the exercise, visit the challenge page:
 
 Key Topics
+
     - HTML
         - Semantic elements, tags
         - Attributes
@@ -24,5 +25,6 @@ Key Topics
         - Grid
 
 
+Mock-Up
 
 ![Mock-up Example!](./assets/Images/mock-up.png)
