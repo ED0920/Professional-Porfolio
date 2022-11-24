@@ -1,5 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* used flex to justify items at opposite ends and align in centre */
@@ -8,15 +16,15 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #3e4853;
+    background-color: #31343d;
 }
 /* used margin to reduce default size of header */
 .my-name{
     background-color: #92cccd;
     color:#31343d;
     text-align: right;
-    width: 450px;
-    font-size: 72px;
+    width: 300px;
+    font-size: 48px;
     padding-right: 15px;
     padding-left: 15px;
     margin-top: 25px;
@@ -30,84 +38,141 @@ body{
 /* removed underline and added bottom border to control styling such as width(w/ padding) & thickness*/
 .topnav a {
     color:#92cccd;
-    font-size: 35px;
-    margin: 10px;
+    font-size: 16px;
+    margin:7px;
     padding-right: 25px;
     padding-left: 25px;
-    border-bottom: 5px solid #92cccd;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #92cccd;
     text-decoration: none;
 }
 
-#hero-text{
-    color:#92cccd;
-    background-color: #3e4853;
-    text-align: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.hero-content img{ 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: 20px;
-    border: 10px;
-    width: 25%;
-}
-
-h2{
-    color:#6777a6;
-    font-size: 50px;
-}
-
-h3{
+.hero{
     display: flex;
-    color: orange;
-    font: bold;
-    font-size: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("../Images/image-4.jpeg");
+    background-size: cover;
+    height: 200px;
+    margin-top: 0;
 }
 
-.main-section{
-    
+.hero h2{
+    background-color: #92cccd;
+    color: #31343d;
+    height: 25px;
+    width: 275px;
+    margin-right: 75px;
+    padding:15px 5px 15px 5px;
+    font-size: 30px;
+}
+
+.content-item{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #445877;
+}
+
+/* disabled flex grow and shrink to force flex basis width */
+
+.left-content{
+    color:#445877;
+    flex: 0 0 300px;    
+    border-right: 10px solid #445877;
+    font-size: 72px;
+    text-align: right;
+    padding-right: 15px;
+    margin-right: 20px;
+}
+
+.image-container{
+    /* flex: 1; */
+    box-sizing: border-box;
+    border: 5px solid #92cccd;
+    background-color: #92cccd;
+  
+}
+
+/* Flex grow required to  */
+.images-container{
+    display: flex;
+    /* background-color: red; */
+    flex: 1;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.main-image{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.image-row{
+    display: flex;
+    flex: 1;
+    column-gap: 20px;
 }
 
 
-.column{
-    float: left;
-    width: 30%;
+.image-row img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #92cccd;
+    opacity: 30%;
+    z-index: 999;
+    transition: opacity 0.25s ease;
 }
 
-.column.side{
-    width: 20%;
+.overlay:hover{
+    opacity: 0;
 }
 
-.column.main{
-    width: 80%;
+.image-container{
+    position: relative;
+    flex: 1;
+        
 }
 
-.footer{
-
-}
-h2{
-    color: darkblue;
+.subtext{
+    font-size: 12px;
 }
 
-/* Tablet */
-@media screen and (max-width: 992px){
+/* position relative to position text relative to div */
 
+/* position absolute to  */
+.bottom-left{
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    background-color: #92cccd;
+    padding: 20px;
 }
 
-/* Large smartphones */
-@media screen and (max-width:768px){
-
+/* used flex 1 to grow content */
+.contact-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
 }
 
-/* Small smartphones */
-@media screen and (max-width:576px){
-
+    /* removed underline and added bottom border to control styling such as width(w/ padding) & thickness*/
+.contact-details a{
+    color: #445877;
+    font-size: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 3px solid #445877;
+    text-decoration: none;
 }
