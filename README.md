@@ -26,4 +26,4 @@ Key Topics
 
 Deployed Application - https://ed0920.github.io/Professional-Porfolio/
 
-<img src="./assets/images/deployment.png>
+![final product](./assets/Images/deployment.png)
