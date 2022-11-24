@@ -25,4 +25,3 @@ Key Topics
 
 
 Deployed Application - https://ed0920.github.io/Professional-Porfolio/
-[professional-porfolio.zip](https://github.com/ED0920/Professional-Porfolio/files/10084911/professional-porfolio.zip)
