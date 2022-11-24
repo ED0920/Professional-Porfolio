@@ -47,6 +47,8 @@ main{
     text-decoration: none;
 }
 
+
+/* position relative to position text relative to div */
 .hero{
     display: flex;
     justify-content: flex-end;
@@ -96,7 +98,6 @@ main{
     box-sizing: border-box;
     border: 5px solid #92cccd;
     background-color: #92cccd;
-  
 }
 
 /* Flex grow required to  */
@@ -144,14 +145,11 @@ main{
 .image-container{
     position: relative;
     flex: 1;
-        
 }
 
 .subtext{
     font-size: 12px;
 }
-
-/* position relative to position text relative to div */
 
 /* position absolute to  */
 .bottom-left{
