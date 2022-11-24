@@ -20,8 +20,10 @@ Key Topics
         - Selectors
         - Model
         - Positioning & floats
-        - Flexbox Layout
+        - Flexbox Layouti
         - Responsive Design
 
 
 Deployed Application - https://ed0920.github.io/Professional-Porfolio/
+
+<img src="./assets/images/deployment.png>
