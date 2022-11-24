@@ -22,9 +22,6 @@ Key Topics
         - Positioning & floats
         - Flexbox Layout
         - Responsive Design
-        - Grid
 
 
-Mock-Up
-
-![Mock-up Example!](./assets/Images/mock-up.png)
+Deployed Application - https://ed0920.github.io/Professional-Porfolio/
